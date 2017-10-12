@@ -15,7 +15,7 @@ Código fonte do minicurso de Arquitetura de Microserviços com node.js
 
 - Implementação de Microserviços com Node.js [Código fonte](https://github.com/victorldomingues/microservices)
 
-[Continue lendo](https://github.com/victorldomingues/microservices/blob/master/Arquitetura%20de%20Microserviços%20com%20Node.pptx)
+[Continue lendo](https://github.com/victorldomingues/microservices/raw/master/Arquitetura%20de%20Microservi%C3%A7os%20com%20Node.pptx)
 
 ## Pré-configuração e instalação do ambiente.
 
