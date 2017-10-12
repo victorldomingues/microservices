@@ -17,7 +17,6 @@ module.exports = {
                     queue.subscribe(function (message) {
                         console.log("Novo evento recebido");
                         console.info('Recebendo evento de venda', message);
-                        command.updateStockByEvent(message.data);
                     });
                 });
 

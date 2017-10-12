@@ -12,6 +12,7 @@ module.exports = {
             conn.exchange("sale", options = {
                 type: 'fanout'
             }, function (exchange) {
+                console.log('Assinando a fila  de vendas');
                 conn.queue("sale.event.queue", function (queue) {
                     queue.bind(exchange, '');
                     queue.subscribe(function (message) {

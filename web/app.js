@@ -10,3 +10,4 @@ app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/app/index.html'));
 })
 app.listen(4004);
+console.log("Rodando na porta 4004");

@@ -14,7 +14,7 @@ conn.on('ready', function (data) {
 module.exports = {
     created: function (data) {
         console.info("[Evento] Novo evento disparado");
-        console.info("Novo venda", data);
+        console.info("Nova venda", data);
         exchange.publish('', {
             "data": data,
             "action": "CREATE"
