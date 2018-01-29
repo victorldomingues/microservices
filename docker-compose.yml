@@ -8,6 +8,7 @@ services:
     container_name: products
     environment:
       PORT: 3000
+      
   sales:
     restart: always
     build: ./api/api.sales/.
