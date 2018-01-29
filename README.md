@@ -1,21 +1,6 @@
-# Minicurso Arquitetura de Microserviços com Node.js
-Código fonte do minicurso de Arquitetura de Microserviços com node.js
+# CPBR11 Arquitetura de Microsserviços, Overview, Implementação e Deploy.
 
-## Apresentação Teórica
-
-- Objetivo do curso	
-
-- Introdução	
-
-- Arquitetura Monolítica / Monolithic Architecture	
-
-- Arquitetura de Microserviços / Microservices Architecture	
-
-- Node.js	
-
-- Implementação de Microserviços com Node.js [Código fonte](https://github.com/victorldomingues/microservices)
-
-[Continue lendo](https://github.com/victorldomingues/microservices/raw/master/Arquitetura%20de%20Microservi%C3%A7os%20com%20Node.pptx)
+Código fonte da palestra sobre Arquitetura de Microsserviços, Overview, Implementação e Deploy .
 
 ## Pré-configuração e instalação do ambiente.
 
