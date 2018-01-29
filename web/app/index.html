@@ -20,6 +20,7 @@
                     <div class="inner">
                         <h3 class="masthead-brand">Microserviços</h3>
                         <nav class="nav nav-masthead" ng-init="products = true ">
+                            <img width="70px" height="70px"  src="https://rock-it.pl/content/images/2017/05/compose.png" />
                             <a class="nav-link {{products ? 'active' : '' }}" ng-click="products = true; sales = false;" href="#!/">Produtos</a>
                             <a class="nav-link  {{sales ? 'active' : '' }}" ng-click="products = false; sales = true;" href="#!/sales">Vendas</a>
                         </nav>
@@ -29,7 +30,8 @@
                 <div ng-view class="inner cover">
 
                 </div>
-
+                <br/>
+                <br/>
                 <div class="mastfoot">
                     <div class="inner">
                         <p>Arquitetura de Microserviços, by <a href="https://gihub.com/victorldomingues">Victor Luiz Domingues</a>.</p>

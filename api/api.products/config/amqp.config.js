@@ -1,5 +1,5 @@
 const conn = {
-    host: process.env.RMQ_HOST || 'localhost' || '192.168.99.100',
+    host: process.env.RMQ_HOST || 'rmq' || '192.168.99.100',
     port: 5672,
     login: 'guest',
     password: 'guest',

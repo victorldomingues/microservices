@@ -41,7 +41,7 @@ Interface web
 > node app
 
 API - Produtos
-./api/api.procuts
+./api/api.products
 
 > npm install
 
