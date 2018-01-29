@@ -3,7 +3,7 @@ angular.module('app.services', [])
 
         var api = {};
 
-        var url = 'http://localhost:3000/';
+        var url = window.location.origin + ':3000/';
 
         api.save = function (data) {
             return $http({
@@ -42,7 +42,7 @@ angular.module('app.services', [])
 
         var api = {};
 
-        var url = 'http://localhost:3001/';
+        var url =  window.location.origin + ':3001/';
 
         api.save = function (data) {
             return $http({
