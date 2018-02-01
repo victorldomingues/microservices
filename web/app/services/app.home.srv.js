@@ -3,7 +3,9 @@ angular.module('app.services', [])
 
         var api = {};
 
-        var url = window.location.origin + ':3000/';
+        var url = window.location.origin.replace(':4004', '') + ':3000/';
+
+        console.info('url', url);
 
         api.save = function (data) {
             return $http({
@@ -42,7 +44,9 @@ angular.module('app.services', [])
 
         var api = {};
 
-        var url =  window.location.origin + ':3001/';
+        var url =  window.location.origin.replace(':4004', '') + ':3001/';
+
+        console.info('url', url);
 
         api.save = function (data) {
             return $http({
