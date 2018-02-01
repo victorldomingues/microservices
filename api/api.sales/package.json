@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "amqp": "^0.2.6",
-    "cors": "^2.8.4",
+    "cors": "^2.8.4", 
     "express": "^4.16.1",
     "sequelize": "^4.13.5",
     "sqlite3": "^3.1.13"
