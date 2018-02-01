@@ -8,6 +8,8 @@ services:
     container_name: products
     environment:
       PORT: 3000
+      RMQ_HOST: 'rmq'
+      DEBUG: "true"
       
   sales:
     restart: always
@@ -17,6 +19,7 @@ services:
     container_name: sales
     environment:
       PORT: 3001
+      RMQ_HOST: 'rmq'
       DEBUG: "true"
 
   rmq:
